@@ -1,0 +1,101 @@
+:root { 
+
+/* fonts */
+
+--main-font: "Roboto";
+--secondary-font: "Raleway";
+
+/* text color */
+
+--accent-txt-color: #2196F3;
+
+/* bg color */
+
+ }
+
+body {font-family: "Roboto", sans-serif ;
+font-size: 16px;
+line-height: 1.87;
+}
+
+/* comon styles start */
+
+.link {text-decoration: none;}
+
+.list {list-style: none;}
+
+.logo-web {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+/* comon styles end */
+
+/* heder */
+
+.heder-logo-studio {
+    color: #000000;}
+    
+
+.heder-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;}
+
+.heder-link:hover,
+.heder-link:focus {
+    color: var(--accent-txt-color);}   
+
+.heder-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;} 
+.heder-contact:hover,
+.heder-contact:focus {
+     color: var(--accent-txt-color);
+        }
+
+/* main */
+
+
+/* footer */
+
+.footer {
+background-color: #2F303A;
+}
+
+.footer-logo-studio {
+color: #FFFFFF;
+}
+
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF
+}
+
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--accent-txt-color);
+}
+.footer-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71x;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-txt-color);}
