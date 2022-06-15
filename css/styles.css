@@ -73,15 +73,21 @@ body {
         cursor: pointer;
         background-color: transparent;
         background-color: var(--txt-light-gray);
+        
 }
-.btn:active {color:var(--txt-white); background:var(--accent-txt-color);}
+.btn-active {accent-color: var(--txt-white);}
+
+.btn-active:hover,
+.btn-active:focus {color: var(--txt-white); background-color: var(--accent-txt-color);
+}
+
 
 .link-current {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:var(--accent-txt-color)}
+    accent-color; var(--accent-txt-color)}
 
 .link-current:hover,
 .link-current:focus {color:var(--accent-txt-color)}
@@ -121,7 +127,7 @@ body {
  
 }
 
-.btn-hero{
+.btn-hero {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -134,8 +140,11 @@ body {
     background-color: transparent;
     background-color:var(--accent-txt-color);}
         
-    .btn-hero:active {color: var(--heder-footer); background: var(--accent-txt-color);
+    .btn-hero-active {accent-color: var(--heder-footer);
         }
+
+    .btn-hero-active:hover,
+    .btn-hero-active:focus {color: var(--heder-footer); background-color: var(--accent-txt-color);}
         
                 
 .section-one-h1 {
