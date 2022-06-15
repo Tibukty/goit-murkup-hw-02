@@ -82,16 +82,6 @@ body {
 }
 
 
-.link-current {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    accent-color; var(--accent-txt-color)}
-
-.link-current:hover,
-.link-current:focus {color:var(--accent-txt-color)}
-
 /* comon styles end */
 
 /* heder */
@@ -113,11 +103,13 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--txt-gray);} 
+    color: var(--txt-gray);}
+
 .heder-contact:hover,
-.heder-contact:focus {
-     color: var(--accent-txt-color);
-        }
+.heder-contact:focus,
+.heder-link:hover,
+.heder-link:focus,
+.current {color: var(--accent-txt-color);}
 
 /* main */
 
@@ -138,7 +130,7 @@ body {
     color: var(--txt-white);
     cursor: pointer;
     background-color: transparent;
-    background-color:var(--accent-txt-color);}
+    background-color: var(--accent-txt-color);}
         
     .btn-hero-active {accent-color: var(--heder-footer);
         }
