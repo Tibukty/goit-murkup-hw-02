@@ -22,7 +22,7 @@
 
 --heder-footer: #2F303A;
 
- }
+}
 
 body {
     font-family: var(--main-font);
@@ -62,35 +62,25 @@ body {
     color: var(--accent-txt-color);
 }
 
-.btn {
-        font-family: inherit ;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--txt-deep-grey);
-        cursor: pointer;
-        background-color: transparent;
-        background-color: var(--txt-light-gray);
-        
-}
-.btn-active {accent-color: var(--txt-white);}
-
-.btn-active:hover,
-.btn-active:focus {color: var(--txt-white); background-color: var(--accent-txt-color);
+.logo-studio {
+    color: var(--txt-black);
 }
 
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    color: var(--txt-white);
+    background-color: var(--accent-txt-color);
+}
 
 /* comon styles end */
 
 /* heder */
 
-.heder-logo-studio {
-    color: var(--txt-black);}
-    
 
-.heder-link {
+.heder-link
+{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -109,36 +99,18 @@ body {
 .heder-contact:focus,
 .heder-link:hover,
 .heder-link:focus,
-.current {color: var(--accent-txt-color);}
+.current
+{color: var(--accent-txt-color);}
 
 /* main */
 
 /* main-one */
 
 .hero-color {background-color: var(--heder-footer);
+ }
  
-}
 
-.btn-hero {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: var(--txt-white);
-    cursor: pointer;
-    background-color: transparent;
-    background-color: var(--accent-txt-color);}
-        
-    .btn-hero-active {accent-color: var(--heder-footer);
-        }
 
-    .btn-hero-active:hover,
-    .btn-hero-active:focus {color: var(--heder-footer); background-color: var(--accent-txt-color);}
-        
-                
 .section-one-h1 {
     font-weight: 900;
     font-size: 44px;
@@ -148,6 +120,19 @@ body {
     text-transform: uppercase;
     color: var(--txt-white);
     
+}
+
+.btn-one {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--txt-deep-grey);
+    background-color: var(--txt-light-gray);
+    cursor: pointer;
 }
 
 .section-one-h2 {
@@ -188,6 +173,19 @@ body {
 
 
 /* main-portfolio */  
+
+
+.btn-portfolio {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        color: var(--txt-deep-grey);
+        cursor: pointer;
+        background-color: transparent;
+        background-color: var(--txt-light-gray);
+    }
 
 
 .portfolio-h2-style {
