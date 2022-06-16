@@ -187,6 +187,7 @@ body {
         background-color: var(--txt-light-gray);
     }
 
+    .btn-colored {color: var(--txt-white); background-color: var(--accent-txt-color);}
 
 .portfolio-h2-style {
     
